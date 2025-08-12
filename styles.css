@@ -1,0 +1,159 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
+/* Reset default browser styles */
+html,
+ul,
+h1,
+h2,
+h3,
+h4,
+h5,
+p {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  margin: 3rem;
+}
+
+ul > li > ul {
+  margin-left: 2rem;
+}
+
+li {
+  list-style-position: inside;
+}
+
+.mt-05 {
+  margin-top: 0.5rem;
+}
+
+.mt-1 {
+  margin-top: 1rem;
+}
+
+.my-1 {
+  margin-block: 1rem;
+}
+
+.ml-2 {
+  margin-left: 2rem;
+}
+
+/* Header Styles */
+header {
+  display: flex;
+  margin-bottom: 2rem;
+
+  .profile-picture {
+    min-width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    background-color: black;
+    margin-left: 2rem;
+    object-fit: cover;
+    object-position: 0% 4%;
+  }
+
+  .profile-description {
+    position: relative;
+    width: 100%;
+
+    p {
+      margin-block: 0.5rem;
+    }
+
+    .name-font {
+      color: #222831;
+      font-size: 3rem;
+    }
+
+    .role-font {
+      font-size: 2rem;
+      margin-bottom: 0.5rem;
+    }
+
+    .birth-date-font {
+      font-size: 1.3rem;
+      color: black;
+      margin: 0;
+      border-bottom: 1px solid black;
+    }
+
+    .about-font {
+      font-size: 1.7rem;
+      color: #222831;
+      margin: 0 0 0.6rem 0;
+    }
+
+    .description-font {
+      color: black;
+      margin: 0;
+    }
+
+    > ul > li {
+      margin-bottom: 0.5rem;
+    }
+
+    .socials {
+      margin: 2rem 0 2rem 0;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      list-style: none;
+
+      .socials-item {
+        display: flex;
+        align-items: center;
+        justify-content: start;
+
+        & img {
+          margin-right: 0.6rem;
+        }
+
+        & span {
+          font-size: 1.1rem;
+          font-weight: bold;
+          color: black;
+        }
+
+        & a {
+          height: 24px;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          text-decoration: none;
+        }
+      }
+    }
+  }
+}
+
+/* Main Styles */
+main {
+  section {
+    margin-bottom: 3.5rem;
+
+    > h2 {
+      color: #222831;
+    }
+
+    article {
+      p {
+        margin-bottom: 1rem;
+      }
+    }
+
+    hr {
+      margin-block: 1.7rem;
+    }
+
+    li {
+      margin-block: 0.5rem;
+    }
+  }
+}
